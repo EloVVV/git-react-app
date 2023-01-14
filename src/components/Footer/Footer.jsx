@@ -1,6 +1,11 @@
+import styles from './footer.module.css';
+console.log(styles);
 const Footer = () => {
     return (
-        <header><h1>Футер</h1></header>
+        <footer className={styles.footer}>
+            <h1>Футер</h1>
+            <p >Описание заголовка</p>
+        </footer>
     );
 }
 
